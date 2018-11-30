@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Repro.Views.HomeTutor"
+             NavigationPage.HasNavigationBar="False">
+    <!-- MENU -->
+    <MasterDetailPage.Master>
+        <ContentPage Title="Aulé">
+            <Grid x:Name="MainMenuList">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <!-- PAGE -->
+    <MasterDetailPage.Detail>
+        <ContentPage BackgroundColor="Black">
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="12*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="60*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="AUTO"/>
+                </Grid.RowDefinitions>
+                <ScrollView Padding="0, 0, 0, 10" Margin="10, 0" Orientation="Horizontal" Grid.Row="4" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" Spacing="10" x:Name="StudentsButtonsStack" Padding="0" Margin="0">
+                        <Button Text="Loja" TextColor="White" BackgroundColor="Transparent" HeightRequest="80" WidthRequest="160" BorderWidth="2" BorderColor="White" CornerRadius="5" Command="{Binding OnStoreTappedCommand}"/>
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

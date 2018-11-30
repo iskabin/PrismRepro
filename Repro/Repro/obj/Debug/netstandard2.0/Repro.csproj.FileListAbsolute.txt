@@ -1,0 +1,13 @@
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\bin\Debug\netstandard2.0\Repro.deps.json
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\bin\Debug\netstandard2.0\Repro.dll
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\bin\Debug\netstandard2.0\Repro.pdb
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Views\HomeTutor.xaml.g.cs
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Views\Store.xaml.g.cs
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Repro.csproj.CoreCompileInputs.cache
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Repro.AssemblyInfoInputs.cache
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Repro.AssemblyInfo.cs
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Repro.dll
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Repro.pdb
+C:\Users\lucas.elias\source\repos\Repro\Repro\Repro\Repro\obj\Debug\netstandard2.0\Repro.csprojAssemblyReference.cache

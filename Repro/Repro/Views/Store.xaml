@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Repro.Views.Store"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <RelativeLayout x:Name="header" BackgroundColor="White" HorizontalOptions="FillAndExpand">
+                <!-- HEADER -->
+                <BoxView Color="#00dcbb" HeightRequest="3" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-1.5}"/>
+                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal" HorizontalOptions="FillAndExpand" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0, Constant=20}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}">
+                    <!-- BACK BUTTON -->
+                    <Button x:Name="backButton" Command="{Binding OnBackTappedCommand}" BackgroundColor="Black" WidthRequest="30" Image="left_arrow.png" Margin="0, 0, 0, 0" VerticalOptions="Center"/>
+                    <!-- STUDENT PAGE TITLE -->
+                    <Label Text="Loja" TextColor="#00dcbb" BackgroundColor="White" FontAttributes="Bold" FontSize="24" VerticalOptions="Center"/>
+                    <Entry Placeholder="Pesquisar" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </RelativeLayout>
+            <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                <StackLayout Spacing="3" HeightRequest="40" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Margin="5, 0, 0, 0" Text="Todos" FontAttributes="Bold" TextColor="White" BackgroundColor="#00dcbb"/>
+                    <Button Text="Matemática" FontAttributes="Bold" TextColor="White" BackgroundColor="Red"/>
+                    <Button Text="Português" FontAttributes="Bold" TextColor="White" BackgroundColor="LightBlue"/>
+                    <Button Text="Ciências" FontAttributes="Bold" TextColor="White" BackgroundColor="Green"/>
+                    <Button Margin="0, 0, 5, 0" Text="Redação" FontAttributes="Bold" TextColor="White" BackgroundColor="LightGreen"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
